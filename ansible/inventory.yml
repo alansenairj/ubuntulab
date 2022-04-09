@@ -1,0 +1,27 @@
+all:
+  vars:
+#    ansible_user: 'ubuntu'
+    ansible_become: 'yes'
+    ansible_become_method: 'sudo'
+#    ansible_sudo_pass: ubuntu
+#    ansible_ssh_pass: ubuntu  #mudar para user ansible
+#    ansible_ssh_user: root  #mudar para user ansible
+    firewall_disable_firewalld: true
+    firewall_disable_ufw: true
+
+remoto:
+  hosts:
+    192.168.129.199:
+    #10.25.15.28:
+    #10.25.15.16:
+    #10.25.15.20:
+    #10.25.15.23:
+    #10.25.15.26:
+    #10.25.15.19:
+    #10.25.15.18:
+    #10.25.15.68:
+    #10.25.15.37:
+    #10.25.15.34:
+    #10.25.15.38:    
+
+
