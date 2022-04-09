@@ -17,11 +17,14 @@ Playbook simples, sem roles ou templates.
 - Adiciona o User docker ao grupo vagrant
 - Inicia o Docker Service Daemon
 
-Instruções para uso
-Clonar o repositório, entrar no repositório extaído e executar "vagrant up" 
-Entrar na VM usando "vagrant ssh"
+_________________________________________________________________
+Instruções para uso:
+
+1- Clonar o repositório, entrar no repositório extaído e executar "vagrant up" 
+2- Entrar na VM usando "vagrant ssh"
 Dica no Linux - instalar pacote unzip e digitar " unzip ansible_docker_install.zip
 
 ![image](https://user-images.githubusercontent.com/20565821/127348699-a5e7b5b5-8b8a-49ed-a427-5f7c5f19e203.png)
-Para logar no container do Portainer, digitar no navegador: localhost:9000
+3- (opcional) Para logar no container do Portainer, digitar no navegador:
+ localhost:9000 ou o ip do seu host. 
 
