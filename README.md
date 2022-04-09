@@ -1,4 +1,4 @@
-# ansible_docker_install - automação para a VM Vagrant que possui automação para instalação do docker e faz deploy de containers Portainer, Watchtoer e Jenkins automaticamente. 
+# ansible_docker_install - automação para a VM Vagrant que possui automação para instalação do docker e faz deploy de containers Portainer, Watchtower e Jenkins automaticamente. 
 
 OBS - Portainer é um gerenciador de containers via interface web
 
